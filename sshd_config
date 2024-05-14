@@ -1,0 +1,10 @@
+Port 22
+
+PermitRootLogin yes
+AuthorizedKeysFile .ssh/authorized_keys
+AuthenticationMethods publickey
+
+HostKey /etc/ssh/ssh_host_rsa_key
+HostCertificate /etc/ssh/ssh_host_rsa_key-cert.pub
+
+Subsystem sftp internal-sftp
