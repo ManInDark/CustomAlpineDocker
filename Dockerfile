@@ -1,5 +1,5 @@
 FROM alpine
-RUN apk --update add --no-cache openssh bash python3 py3-psutil openrc busybox-openrc
+RUN apk add --update --no-cache openssh bash python3 py3-psutil openrc busybox-openrc
 
 COPY sshd_config /etc/ssh/sshd_config
 RUN ssh-keygen -A
