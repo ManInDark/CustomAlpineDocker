@@ -1,6 +1,6 @@
 # Contents
 
-The Container extends the functionality of the base alpine image by adding support for services and automatically setting up the ssh config to prevent the known_hosts from overflowing & adding ssh keys for authentication.
+The Container extends the functionality of the base alpine image by adding support for services and automatically setting up the ssh config to prevent the known_hosts from overflowing & adding ssh keys for authentication. It also provides an init system that takes care of zombie processes.
 
 # Building
 
